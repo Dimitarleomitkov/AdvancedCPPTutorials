@@ -30,11 +30,13 @@ int main()
     /* types of data: char(1), short(2), int(4), long(4), longlong(8)
        You can add unsigned to all of these. */
 
+    // Letters are just numbers. We can represent A multiple ways.
     char character1 = 'A';
     char character2 = 65;
 
     cout << "character1 = " << character1 << " and character2 = " << character2 << endl;
 
+    // Letters are just numbers. We can represent 65 multiple ways.
     short short1 = 'A';
     short short2 = 65;
 
@@ -53,7 +55,7 @@ int main()
     flag = false;
     cout << flag << endl;
 
-    // Let's find out the size of bool
+    // Let's find out the size of a bool.
     cout << "The size of a bool is " << sizeof(bool) << " byte." << endl;
 
     return 0;

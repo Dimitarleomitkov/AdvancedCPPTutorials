@@ -10,15 +10,29 @@ int Multiply (int a, int b)
 /* A function can have void as a return value.
    A function does not necessarily have parameters. */
 
+/*
+Implementation of the function MultiplyAndLog()
+params:
+    int a
+    int b
+return:
+    void
+*/
+
 void MultiplyAndLog (int a, int b)
 {
+    // Creating a variable to store the result.
     int result = 0;
+    // Calling the function Multiply and passing the parameters a and b.
+    // Storing the returned value of Multiply() in result.
     result = Multiply (a, b);
+    // Print out the result.
     cout << result << endl;
 }
 
 int main()
 {
+    // Creating a local variable result.
     int result = 0;
 
     // Call the function
@@ -48,7 +62,7 @@ int main()
 
     /* Functions can be broken down into declarations and definitions.
        Declarations are usually stored in a header file.
-       Definitions are usually stored in source files. */
+       Definitions/Implementations are usually stored in source files. */
 
     return 0;
 }

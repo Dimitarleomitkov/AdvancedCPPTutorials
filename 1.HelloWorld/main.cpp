@@ -17,6 +17,6 @@ int main()
 
 /* The code then gets compiled into object files and further into
    an executable file. This can all be set up for the compiler.
-   All the magic happens within the compiler and the liner. Information
+   All the magic happens within the compiler and the linker. Information
    on this can be found elsewhere. I am not about to write a book in
    this comment section. */

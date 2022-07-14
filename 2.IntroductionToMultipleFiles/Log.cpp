@@ -2,7 +2,14 @@
 
 using namespace std;
 
-// definition of the function Log()
+/*
+Implementation of the function MultiplyAndLog()
+params:
+    const char* message
+return:
+    void
+*/
+
 void Log (const char* message)
 {
     cout << message << endl;

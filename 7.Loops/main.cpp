@@ -5,10 +5,10 @@ using namespace std;
 // We use loops to do something multiple times.
 int main()
 {
-    /* Syntax for a for loop.
-       Declaration, exit condition, final code before rerunning. */
+    /* Syntax for a for loop:
+       <declaration>; <exit condition>; <final code before rerunning> */
     for (int i = 0; i < 5; ++i) {
-        cout << "Hello world!" << endl;
+        cout << "[for] Hello world!" << endl;
     }
 
     cout << "==================" << endl;
@@ -17,17 +17,17 @@ int main()
        while (exit condition) */
     int i = 0;
     while (i < 5) {
-        cout << "Hello world!" << endl;
+        cout << "[while] Hello world!" << endl;
         ++i;
     }
 
     cout << "==================" << endl;
 
-    /* Syntax for a while loop.
+    /* Syntax for a do while loop.
        do {body with code} while (exit condition); */
     int j = 0;
     do {
-        cout << "Hello world!" << endl;
+        cout << "[do while] Hello world!" << endl;
         ++j;
     } while (j < 5);
 
