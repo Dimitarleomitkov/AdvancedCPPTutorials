@@ -3,6 +3,15 @@
 using namespace std;
 
 //<return value> <name> (<parameters>)
+
+/*
+Implementation of the function Multiply()
+params:
+    int a
+    int b
+return:
+    int
+*/
 int Multiply (int a, int b)
 {
     return a * b;
