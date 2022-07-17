@@ -32,7 +32,7 @@ public:
 public:
 
     /*
-    Implementation of the constructor Entity()
+    Implementation of the constructor CEntity()
     params:
         void
     return:
@@ -45,7 +45,7 @@ public:
     }
 
     /*
-    Implementation of a constructor Entity()
+    Implementation of a constructor CEntity()
     params:
         float X
         float Y
